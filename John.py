@@ -9,7 +9,7 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     print("\n\x1b[1;91m\x1b[1;43m\033[1;31m LAHORE - KARACHI & ISLAMABAD \x1b[0m\x1b[1;97m\x1b[1;41m IS MY DREAM BEB :( \x1b[0m ")
     print("\n\x1b[1;92m Congratulations Beb Your Device Support This Tool\033[1;37m")
-   print("          \033[1;91mUse Vpn If Tool Run Error!") 
+    print("          \033[1;91mUse Vpn If Tool Run Error!") 
     from Public import login
     login()
 elif bit == '32bit':
